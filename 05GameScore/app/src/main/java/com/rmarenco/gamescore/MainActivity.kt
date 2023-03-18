@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState != null) {
             displayTeamA.text = savedInstanceState?.getInt(TEAM_A_SCORE).toString()
             displayTeamB.text = savedInstanceState?.getInt(TEAM_B_SCORE).toString()
+            scoreTeamA = savedInstanceState.getInt(TEAM_A_SCORE)
+            scoreTeamB = savedInstanceState.getInt(TEAM_B_SCORE)
         } else {
             displayTeamA.text = scoreTeamA.toString()
             displayTeamB.text = scoreTeamB.toString()
