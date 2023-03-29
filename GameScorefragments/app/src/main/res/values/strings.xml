@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GameScore-fragments</string>
+    <string name="team_a">team a</string>
+    <string name="action_plus_one">+1</string>
+    <string name="team_b">team b</string>
+    <string name="text_result">TEAM A %d \n VS \n TEAM B %d</string>
+    <string name="team_text">Team %s</string>
+</resources>
