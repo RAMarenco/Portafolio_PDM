@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         binding.viewModel = viewModel
         binding.lifecycleOwner = this
 
-        viewModel.name.observe(this) { name ->
+        /*viewModel.name.observe(this) { name ->
             binding.displayGreetingText.text = "Hola $name"
-        }
+        }*/
     }
 }
