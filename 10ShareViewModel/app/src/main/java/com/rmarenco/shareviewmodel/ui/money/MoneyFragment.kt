@@ -29,12 +29,12 @@ class MoneyFragment : Fragment() {
         bind(view)
         addListener()
 
-        if (viewModel.lastname.isNotEmpty()) moneyEditText.setText(viewModel.lastname)
+        if (viewModel.money.isNotEmpty()) moneyEditText.setText(viewModel.money)
     }
 
     private fun addListener() {
         saveButton.setOnClickListener {
-            viewModel.lastname = moneyEditText.text.toString()
+            viewModel.money = moneyEditText.text.toString()
         }
     }
 
