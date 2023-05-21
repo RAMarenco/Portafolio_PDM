@@ -1,7 +1,8 @@
-package com.rmarenco.exampractice2
+package com.rmarenco.exampractice2.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.rmarenco.exampractice2.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
